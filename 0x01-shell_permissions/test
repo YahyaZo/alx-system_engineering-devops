@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "commit: "
+read commit
+echo "file: "
+read file
+chmod u+x "{file}"
+git add .
+git commit -m "{commit}"
+git push
