@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Iterate over non-hidden files that contain a dash
+for i in *;
+do
+	echo "$i" | cut -d'-' -f2
+done
